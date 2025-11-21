@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App(){
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/'>
             <Routes>
                 <Route path="/" element={<SignInPage />} />
 

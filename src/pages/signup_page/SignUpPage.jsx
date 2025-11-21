@@ -1,6 +1,6 @@
 // Components
-import Logo from '../reusable_elements/Logo.jsx'
-import IncompleteValues from '../reusable_elements/WarningDiv.jsx';
+import Logo from '../reusable_elements/Logo'
+import IncompleteValues from '../reusable_elements/WarningDiv';
 
 // Style sheets
 import styles from './signup_page.module.css';

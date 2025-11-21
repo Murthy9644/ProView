@@ -1,13 +1,13 @@
-import SignInPage from './pages/signin_page/SignInPage.jsx'
-import SignUpPage from './pages/signup_page/SignUpPage.jsx';
-import HomePage from './pages/home_page/HomePage.jsx';
+import SignInPage from './pages/signin_page/SignInPage'
+import SignUpPage from './pages/signup_page/SignUpPage';
+import HomePage from './pages/home_page/HomePage';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App(){
 
     return (
-        <BrowserRouter basename="/ProView/">
+        <BrowserRouter basename='ProView'>
             <Routes>
                 <Route path="/" element={<SignInPage />} />
 

@@ -1,4 +1,4 @@
-import Logo from '../reusable_elements/Logo.jsx'
+import Logo from '../reusable_elements/Logo'
 import styles from './signin_page.module.css';
 
 import { useState } from 'react';

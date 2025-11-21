@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App(){
 
     return (
-        <BrowserRouter basename='/Proview'>
+        <BrowserRouter>
             <Routes>
                 <Route path="/" element={<SignInPage />} />
 

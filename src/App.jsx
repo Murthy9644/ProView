@@ -7,11 +7,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App(){
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/ProView/">
             <Routes>
                 <Route path="/" element={<SignInPage />} />
 
-                <Route path='/home' element={<HomePage/>} />
+                <Route path='/home' element={<HomePage />} />
 
                 <Route path="/login" element={<SignInPage />} />
 

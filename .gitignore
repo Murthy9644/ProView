@@ -1,0 +1,57 @@
+#...existing code...
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+server/node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+.vite/
+build/
+
+# Vite preview / cache
+.cache/
+*.tsbuildinfo
+
+# Environment / local overrides
+.env
+.env.*.local
+*.local
+
+# Server runtime DB / generated files
+# (path exported as [`database_dir_path`](server/src/GlobalThings.js))
+server/data_base/
+server/data_base/*.json
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+Thumbs.db
+
+# Coverage / test outputs
+coverage/
+.nyc_output/
+
+# Misc
+.DS_Store
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
